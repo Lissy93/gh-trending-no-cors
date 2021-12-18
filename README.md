@@ -1,6 +1,12 @@
-# Github Trending Repos API
+<h1 align="center">Github Trending Repos API</h1>
 
-> This is a fork of [xxdongs/github-trending](https://github.com/xxdongs/github-trending) with CORS enabled
+<blockquote align="center">A fork of <a href="https://github.com/xxdongs/github-trending">xxdongs/github-trending</a>, but with CORS enabled</blockquote>
+
+<p align="center"><img width="120" src="https://i.ibb.co/74rPyzC/octocat-clean.png" /></p>
+
+---
+
+## Usage
 
 Requests can be made to: [`https://gh-trending-repos.herokuapp.com/repo`](https://gh-trending-repos.herokuapp.com/repo). No auth is required.
 
