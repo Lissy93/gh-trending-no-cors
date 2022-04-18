@@ -49,6 +49,7 @@ class DeveloperHandler(CorsMixin, RequestHandler, ABC):
 async def trending(req: RequestHandler, start_url: str):
     lang = req.get_argument("lang", None)
     since = req.get_argument("since", None)
+    spoken_language_code = req.get_argument("spoken_language_code", None)
     url = start_url
     if lang is not None:
         lang = lang.replace('-shuo', '%23')
@@ -56,6 +57,8 @@ async def trending(req: RequestHandler, start_url: str):
     params = None
     if since is not None:
         params = {'since': since}
+    if spoken_language_code is not None:
+        params = {'spoken_language_code': spoken_language_code}
     result = await get_trending(url=url, params=params)
     if result['count'] > 0:
         req.set_status(201)
