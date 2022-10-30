@@ -1,10 +1,16 @@
 <h1 align="center">Github Trending Repos API</h1>
 
-<blockquote align="center">A fork of <a href="https://github.com/xxdongs/github-trending">xxdongs/github-trending</a>, but with CORS enabled</blockquote>
+<p align="center">
+  <i>A REST API to fetch a list of trending GitHub repositories</i><br>
+  <i>A fork of <a href="https://github.com/xxdongs/github-trending">xxdongs/github-trending</a>, but with CORS enabled</i>
+</p>
 
 <p align="center"><img width="120" src="https://i.ibb.co/74rPyzC/octocat-clean.png" /></p>
 
----
+
+
+> **Warning** Heroku has recently removed all free plans, and bumped up their pricing 😔<br>
+> Therefore the API is temporarily offline, while I find an alternative platform, suggestions welcome!
 
 ## Usage
 
